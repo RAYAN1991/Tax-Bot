@@ -17,23 +17,23 @@ client.on("ready", () => {
   console.log(`> ${new Date()}`);
   console.log(">| Name :");
   console.log(`> ${client.user.username}`);
-  client.user.setActivity('Tax Bot By Rayan ', ({type: "LISTENING"}))
+  client.user.setActivity('Tax Bot By KENNEDY ', ({type: "LISTENING"}))
 });
  
  
 client.on("message", async message => {
-///coded by : Rayan
+///coded by : Kennedy 
 
    
-const prefix = "#";//Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
-const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
+const prefix = "#";//&Bhelp پرێفیکسی بۆتەکەت دابنێ
+const devs = "id";// & 1060685685281005631 دەڤی بۆتەکەت دابنێ
   let args = message.content
     .split(" ")
     .slice(1)
     .join(" "); if (message.author.bot) return;
   if (!message.guild) return;
   if (!message.content.startsWith(prefix)) return;
-///coded by : Rayan
+///coded by : Kennedy
   if (message.content.toLowerCase().startsWith(prefix + "help".toLowerCase())) { 
     let help = new Discord.MessageEmbed()
       .setColor("0x5016f3")
@@ -42,7 +42,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
         --------------------------------------------------
                Probot Commands :
                 
-               1-  ${prefix}tax 
+               1-  ${B}tax 
         --------------------------------------------------
         Developers : <@841245687533535242>
             **`);
@@ -129,7 +129,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
 
   
 
-///coded by : Rayan
+///coded by : Kennedy 
  
   
 let ac = ["listening", "watching", "playing", "streaming","default"];
@@ -160,7 +160,7 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
     }
   }
 
-///coded by : Rayan  
+///coded by : Kennedy 
   
       if (message.content === prefix + "ping") {
         const betha = new Discord.MessageEmbed()
@@ -173,7 +173,7 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
 });
 
 
-///coded by : Rayan
+///coded by : Kennedy 
 
 
-client.login(""); //Your Bot Token & تۆکین لە لێرە دابنێ
+client.login("MTA2MDY4NTY4NTI4MTAwNTYzMQ.G_-Nua.ZcRWkvQVh_86MEVqiUavKjUabpkMYDiZerrlFQ"); //Your Bot Token & تۆکین لە لێرە دابنێ
