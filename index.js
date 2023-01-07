@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.listen(() => console.log("Tax bot By Rayan"));
+app.listen(() => console.log("Tax bot By Kennedy "));
 
 ///coded by : Unknowm
 const Discord = require('discord.js');
@@ -17,7 +17,7 @@ client.on("ready", () => {
   console.log(`> ${new Date()}`);
   console.log(">| Name :");
   console.log(`> ${client.user.username}`);
-  client.user.setActivity('Tax Bot By Rayan ', ({type: "LISTENING"}))
+  client.user.setActivity('Tax Bot By Kennedy ', ({type: "LISTENING"}))
 });
  
  
@@ -25,8 +25,8 @@ client.on("message", async message => {
 ///coded by : Rayan
 
    
-const prefix = "#";//Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
-const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
+const prefix = "#";/+/Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
+const devs = "id";/1058871662063407214/Dev Bot Id & دەڤی بۆتەکەت دابنێ
   let args = message.content
     .split(" ")
     .slice(1)
@@ -42,11 +42,11 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
         --------------------------------------------------
                Probot Commands :
                 
-               1-  ${prefix}tax 
+               1-  +{prefix}tax 
         --------------------------------------------------
-        Developers : <@841245687533535242>
+        Developers : <@ 1014229255288274944 >
             **`);
-    message.channel.send(help);
+    message.channel.send(+help);
   }
 ///coded by : Rayan
   if (message.content.toLowerCase().startsWith(prefix + "wa".toLowerCase())) { 
@@ -64,7 +64,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
     let errorembed2 = new Discord.MessageEmbed()
     .setTitle(`**:information_source: Error**`)
     .setColor("#f04747")
-    .setDescription(`**Must Be A Number**`)
+    .setDescription(`**10000000000m**`)
     .setFooter(`${client.user.username}`);
     if (isNaN(args2)) return message.channel.send(errorembed2);
     let errorembed = new Discord.MessageEmbed()
@@ -104,7 +104,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
     let errorembed2 = new Discord.MessageEmbed()
     .setTitle(`**:information_source: Error**`)
     .setColor("#f04747")
-    .setDescription(`**Must Be A Number**`)
+    .setDescription(`**Kennedy Up**`)
     .setFooter(`${client.user.username}`);
     if (isNaN(args2)) return message.channel.send(errorembed2);
     let errorembed = new Discord.MessageEmbed()
@@ -122,7 +122,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
     let embed = new Discord.MessageEmbed()
     .setTitle(`**:notes: The Final Cost Is :**`)
     .setColor("#43b581")
-    .setDescription(`${tax}`)
+    .setDescription(`+{tax}`)
     .setFooter(`${client.user.username}`);
     message.channel.send(embed);
   }
@@ -176,4 +176,4 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
 ///coded by : Rayan
 
 
-client.login(""); //Your Bot Token & تۆکین لە لێرە دابنێ
+client.login("MTA1ODg3MTY2MjA2MzQwNzIxNA.GzRsNr.1rgfmRsyesLSmVB2u_rMG351NUdqEt39dBx5lo"); //Your Bot Token & تۆکین لە لێرە دابنێ
